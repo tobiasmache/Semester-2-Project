@@ -52,4 +52,19 @@ public class PlayerPlatformerController : PhysicsObject {
 
         targetVelocity = move * maxSpeed;
     }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Collectable"))
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Spikes"))
+        {
+            gameObject.SetActive(false);
+        }
+    }
 }
