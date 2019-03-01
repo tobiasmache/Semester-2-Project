@@ -153,7 +153,10 @@ Transform:
   - {fileID: 1762455416}
   - {fileID: 606338705}
   - {fileID: 1793832284}
+<<<<<<< HEAD
   - {fileID: 1801177769}
+=======
+>>>>>>> Dylan'Work
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -201,6 +204,7 @@ Prefab:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 114230831923080080, guid: 7d60c822c3f1b408ea7a00ecdb5e047a,
         type: 2}
       propertyPath: gravityModifier
@@ -234,6 +238,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4520396350849616, guid: 7d60c822c3f1b408ea7a00ecdb5e047a,
     type: 2}
   m_PrefabInternal: {fileID: 216567312}
+=======
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7d60c822c3f1b408ea7a00ecdb5e047a, type: 2}
+  m_IsPrefabAsset: 0
+>>>>>>> Dylan'Work
 --- !u!1 &606338704
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,6 +869,7 @@ TilemapCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+<<<<<<< HEAD
 --- !u!1 &869327814
 GameObject:
   m_ObjectHideFlags: 0
@@ -933,15 +943,46 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1762455417
+=======
+--- !u!1 &1793832280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1793832284}
+  - component: {fileID: 1793832283}
+  - component: {fileID: 1793832282}
+  - component: {fileID: 1793832281}
+  - component: {fileID: 1793832286}
+  - component: {fileID: 1793832285}
+  m_Layer: 0
+  m_Name: Collectitem
+  m_TagString: Collectable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1793832281
+>>>>>>> Dylan'Work
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1762455415}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
+=======
+  m_GameObject: {fileID: 1793832280}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+>>>>>>> Dylan'Work
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -957,6 +998,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!23 &1762455418
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1042,6 +1084,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+=======
+>>>>>>> Dylan'Work
 --- !u!23 &1793832282
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1095,6 +1139,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 201465213}
+<<<<<<< HEAD
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1801177765
@@ -1197,13 +1242,34 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1801177770
+=======
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1793832285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1793832280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7bc1974a2948403bb47802b9860513c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &1793832286
+>>>>>>> Dylan'Work
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1801177765}
   m_BodyType: 0
+=======
+  m_GameObject: {fileID: 1793832280}
+  m_BodyType: 1
+>>>>>>> Dylan'Work
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1214,7 +1280,11 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
+<<<<<<< HEAD
   m_CollisionDetection: 0
+=======
+  m_CollisionDetection: 1
+>>>>>>> Dylan'Work
   m_Constraints: 0
 --- !u!1 &2095567146
 GameObject:

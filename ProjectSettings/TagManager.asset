@@ -5,8 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Collectable
+<<<<<<< HEAD
   - Enemy
   - Spikes
+=======
+>>>>>>> Dylan'Work
   layers:
   - Default
   - TransparentFX
