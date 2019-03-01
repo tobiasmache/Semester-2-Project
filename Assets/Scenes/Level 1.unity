@@ -214,16 +214,26 @@ Prefab:
     - target: {fileID: 114230831923080080, guid: 7d60c822c3f1b408ea7a00ecdb5e047a,
         type: 2}
       propertyPath: jumpTakeOffSpeed
-      value: 7.5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114230831923080080, guid: 7d60c822c3f1b408ea7a00ecdb5e047a,
         type: 2}
       propertyPath: maxSpeed
-      value: 7.5
+      value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 114230831923080080, guid: 7d60c822c3f1b408ea7a00ecdb5e047a,
+        type: 2}
+      propertyPath: PlayerRestart
+      value: 
+      objectReference: {fileID: 376748445}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d60c822c3f1b408ea7a00ecdb5e047a, type: 2}
   m_IsPrefabAsset: 0
+--- !u!4 &376748445 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4520396350849616, guid: 7d60c822c3f1b408ea7a00ecdb5e047a,
+    type: 2}
+  m_PrefabInternal: {fileID: 216567312}
 --- !u!1 &606338704
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,7 +870,7 @@ GameObject:
   - component: {fileID: 869327816}
   - component: {fileID: 869327815}
   m_Layer: 0
-  m_Name: GameController
+  m_Name: EnemyController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

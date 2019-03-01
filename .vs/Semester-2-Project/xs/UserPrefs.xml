@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PennyPixel/Scripts/PlayerPlatformerController.cs">
     <Files>
-      <File FileName="Assets/PennyPixel/Scripts/PlayerPlatformerController.cs" Line="67" Column="13" />
+      <File FileName="Assets/PennyPixel/Scripts/PlayerPlatformerController.cs" Line="68" Column="68" />
       <File FileName="Assets/PennyPixel/Scripts/EnemyController.cs" Line="14" Column="59" />
       <File FileName="../../Game/Assets/Game.cs" Line="94" Column="49" />
     </Files>
