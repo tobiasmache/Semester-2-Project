@@ -6,6 +6,7 @@ public class PlayerPlatformerController : PhysicsObject {
 
     public float maxSpeed = 7;
     public float jumpTakeOffSpeed = 7;
+    public Transform PlayerRestart;
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
@@ -60,11 +61,11 @@ public class PlayerPlatformerController : PhysicsObject {
         }
         if (other.gameObject.CompareTag("Enemy"))
         {
-            gameObject.SetActive(false);
+            PlayerRestart.position = new Vector3(-4.14f, 3.1f, 1f);
         }
         if (other.gameObject.CompareTag("Spikes"))
         {
-            gameObject.SetActive(false);
+            PlayerRestart.position = new Vector3(-4.14f, 3.1f, 1f);
         }
     }
 }
